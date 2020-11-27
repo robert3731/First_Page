@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My first website</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+	<h1><strong>Witaj na mojej stronie domowej</strong></h1>
+	<img src="{{ url_for('static', filename='albert.jpg') }}" alt="Albert Einstein" title="Albert Einstein">
+	 <div id="extends">{% block content %}{% endblock %}</div>
+    </body>
+</html>

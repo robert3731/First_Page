@@ -1,0 +1,17 @@
+h1 {
+    background: gray;
+    font-size: 22px;
+}
+h2 {
+    color: blue;
+    font-size: 26px;
+}
+img{
+    border-radius: 10px;
+    width: 200px;
+    height: 250px;
+}
+form {
+  display: block;
+  margin-top: 0em;
+}
